@@ -20,8 +20,5 @@ const project = [{
     projectDesc : "lorem ipsum"
 }]
 
-const education = [{
-    collegeName : "fsfd"
-}]
 
 export default project;
