@@ -1,0 +1,19 @@
+body{
+    background-image: url("./Assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.wrapper{
+    padding: 1rem;
+}

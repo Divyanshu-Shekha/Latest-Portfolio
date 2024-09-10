@@ -1,0 +1,33 @@
+.project_blue_line{
+    background-color: #11cfe2ab;
+    height: 5px;
+    width: 200px;
+}
+.Project_container{
+    width: 100%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.Project_container_card{
+    height: auto;
+    width: auto;
+    background: rgba(0, 0, 0, 0.315);
+}
+.Project_image{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 250px;
+}
+.Project_image img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Project_container_card p{
+    text-align: justify;
+}

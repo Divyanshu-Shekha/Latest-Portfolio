@@ -1,0 +1,34 @@
+.AboutContainer{
+    display: flex;
+    width: auto;
+    padding: 0 10% 0 10%;
+   
+}
+.ImageContainer{
+    width: 50%;
+    height: fit-content;
+}
+
+.Detail_Container{
+    width: 50%;
+}
+.blue_line{
+    background-color: #11cfe2ab;;
+    height: 5px;
+    width: 50%;
+}
+.skillContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.skillContainer div{
+    border: 2px solid rgb(109, 106, 106);
+    height: 30px;
+    width: auto;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

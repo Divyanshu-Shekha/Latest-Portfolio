@@ -1,0 +1,21 @@
+.experience_blue_line{
+    background-color: #11cfe2ab;
+    height: 5px;
+    width: 200px;
+}
+.education_container{
+    display: flex;
+    width: auto;
+    
+}
+.education_du_des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    gap: 30px;
+}
+.education_du_des_inner{
+    text-wrap: wrap;
+    line-height: 0%;
+}
