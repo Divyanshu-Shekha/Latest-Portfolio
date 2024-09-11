@@ -19,3 +19,13 @@
     text-wrap: wrap;
     line-height: 0%;
 }
+
+@media screen and (max-width: 768px) {
+    .education_du_des_inner {
+        text-wrap: wrap;
+        line-height: normal;
+    }
+    .education_container p{
+        text-align: justify;
+    }
+}
