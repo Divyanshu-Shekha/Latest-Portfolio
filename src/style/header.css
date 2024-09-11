@@ -1,15 +1,22 @@
 .active{
     border-bottom: 2px solid white;
-    color: rgb(159, 159, 216);
-    border-bottom-color: rgb(159, 159, 216);
+    color: rgb(128 25 13);
+    border-bottom-color: rgb(181, 181, 208);
 }
 .header_wraper{
+    /* background-color: #142b2d7b; */
     font-size: 1rem;
     height: auto;
-    width: 100%;
+    padding: 0.5rem;
+    width: auto;
     display: flex;
     align-items: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: cursive;
+}
+
+.header_wraper span{
+   
+    font-weight: 900;
 }
 .header_wraper h1{
     font-size: 1rem;
@@ -74,12 +81,23 @@
     }
     .header_item_list_smallScreen{
         list-style: none;
-        width: 76%;
+        width: 80%;
         height: 223px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        position: absolute;
+        z-index: 1000;
+        background: rgb(2, 0, 36);
+        background: linear-gradient(
+          90deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(7, 101, 105, 0.9305847338935574) 35%,
+          rgba(0, 212, 255, 1) 100%
+        ); 
+        margin-top: 315px;
+        border-radius: 0 20% 20% 0;
     }
     
 

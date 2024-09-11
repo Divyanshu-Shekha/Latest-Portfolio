@@ -19,7 +19,7 @@ const Header = () => {
           }}
         />
         <h1>
-          <Link to="./">DIVYANSHU SHEKHAR</Link>
+          <Link>DIVYANSHU SHEKHAR</Link>
         </h1>
         <ul
           className={
@@ -27,19 +27,22 @@ const Header = () => {
           }
         >
           <li>
-            <NavLink to="./About">ABOUT ME</NavLink>
+            <NavLink to="./"><span>HOME</span></NavLink>
           </li>
           <li>
-            <NavLink to="./Education">EDUCATION</NavLink>
+            <NavLink to="./About"><span>ABOUT ME</span></NavLink>
           </li>
           <li>
-            <NavLink to="./Experience">EXPERIENCE</NavLink>
+            <NavLink to="./Education"><span>EDUCATION</span></NavLink>
           </li>
           <li>
-            <NavLink to="./Project">PROJECT</NavLink>
+            <NavLink to="./Experience"><span>EXPERIENCE</span></NavLink>
           </li>
           <li>
-            <NavLink to="./Contact">CONTACT</NavLink>
+            <NavLink to="./Project"><span>PROJECT</span></NavLink>
+          </li>
+          <li>
+            <NavLink to="./Contact"><span>CONTACT</span></NavLink>
           </li>
         </ul>
         <div className="header_first_half_top">
