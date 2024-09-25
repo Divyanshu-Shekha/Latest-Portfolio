@@ -12,15 +12,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width:  800px;
     gap: 30px;
 }
 .education_du_des_inner{
+    width: 295px;
     text-wrap: wrap;
     line-height: 0%;
 }
 
 @media screen and (max-width: 768px) {
+    .education_container{
+        flex-direction: column;
+    }
     .education_du_des_inner {
         text-wrap: wrap;
         line-height: normal;
@@ -28,4 +32,10 @@
     .education_container p{
         text-align: justify;
     }
+    
+.education_du_des {
+
+    width: auto;
+
+}
 }

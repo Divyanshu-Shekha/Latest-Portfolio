@@ -34,15 +34,16 @@ const Experience = () => {
             style={{ height: "5rem", width: "2.5rem", color: "#11cfe2ab" }}
           />
           <div className="education_du_des_inner">
-            <h4>company name</h4>
-            <p>designation (duration)</p>
+            <h4>PIET</h4>
+            <p>MERN stack developer (45 days)</p>
           </div>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempore
-          vel ratione expedita, maxime minima. Expedita incidunt dolore magni
-          porro illum laborum? Soluta, maxime cum. Rem quaerat harum facilis
-          nesciunt.
+          Acquired comprehensive knowledge of the MERN stack (MongoDB,
+          Express.js, React, Node.js). Developed a functional waste management
+          system web application using the MERN stack. Demonstrated proficiency
+          in full-stack development and ability to build real-world
+          applications.
         </p>
       </div>
     </div>

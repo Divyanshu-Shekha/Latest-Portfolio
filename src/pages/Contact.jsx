@@ -3,7 +3,7 @@ import "../style/contact.css";
 import { FiPhoneIncoming } from "react-icons/fi";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { GrLocation } from "react-icons/gr";
-import { IoLogoInstagram } from "react-icons/io5";
+import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="contact_middle_child">
           <span>
             <GrLocation
-              style={{ height: "2rem", width: "2rem", color: "#11cfe2ab" }}
+              style={{ height: "2rem", width: "2rem", color: "rgb(24 41 43 / 67%)" }}
             />
           </span>
           <h3>Address</h3>
@@ -47,12 +47,12 @@ const Contact = () => {
         </div>
         <div className="contact_middle_child">
           <span>
-            <IoLogoInstagram
-              style={{ height: "2rem", width: "2rem", color: "#11cfe2ab" }}
+            <FaLinkedin
+              style={{ height: "2rem", width: "2rem", color: "rgb(24 41 43 / 67%)" }}
             />
           </span>
-          <h3>Instagram</h3>
-          <p>divyanshu20</p>
+          <h3>LinkedIn</h3>
+          <p>www.linkedin.com/in/divyanshu-shekhar-14a690228</p>
         </div>
       </div>
       <div className="contact_end">
