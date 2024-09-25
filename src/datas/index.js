@@ -5,18 +5,7 @@ const project = [{
     projectDesc : "An ecommerce site...",
     projectLink : "https://glistening-starburst-28a782.netlify.app/"
 },
-{
-    imgUrl : Tarzone,
-    projectName : "Tarzone",
-    projectDesc : "An ecommerce site...",
-    projectLink : "https://glistening-starburst-28a782.netlify.app/"
-},
-{
-    imgUrl : Tarzone,
-    projectName : "Tarzone",
-    projectDesc : "An ecommerce site...",
-    projectLink : "https://glistening-starburst-28a782.netlify.app/"
-},
+
 ]
 
 
