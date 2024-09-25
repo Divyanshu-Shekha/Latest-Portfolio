@@ -1,24 +1,23 @@
-import iamge from '../Assets/profile_pic.jpg'
+import Tarzone from '../Assets/Tarxone.PNG'
 const project = [{
-    imgUrl : iamge,
-    projectName : "new One",
-    projectDesc : "lorem ipsum"
+    imgUrl : Tarzone,
+    projectName : "Tarzone",
+    projectDesc : "An ecommerce site...",
+    projectLink : "https://glistening-starburst-28a782.netlify.app/"
 },
 {
-    imgUrl : iamge,
-    projectName : "new One",
-    projectDesc : "lorem ipsum"
+    imgUrl : Tarzone,
+    projectName : "Tarzone",
+    projectDesc : "An ecommerce site...",
+    projectLink : "https://glistening-starburst-28a782.netlify.app/"
 },
 {
-    imgUrl : iamge,
-    projectName : "new One",
-    projectDesc : "lorem ipsum"
+    imgUrl : Tarzone,
+    projectName : "Tarzone",
+    projectDesc : "An ecommerce site...",
+    projectLink : "https://glistening-starburst-28a782.netlify.app/"
 },
-{
-    imgUrl : iamge,
-    projectName : "new One",
-    projectDesc : "lorem ipsum"
-}]
+]
 
 
 export default project;

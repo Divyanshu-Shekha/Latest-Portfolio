@@ -15,6 +15,22 @@
     width: auto;
     background: rgba(0, 0, 0, 0.315);
     border-radius: 10% 10% 5% 5%;
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Project_container_card span{
+    height: 40px;
+    width: 134px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(29 194 190 / 32%);
+    border-radius: 30px;
+    border: 1px solid black;
 }
 .Project_image{
     margin: 0;
@@ -30,9 +46,7 @@
     border-radius: 10% 10% 0 0;
 }
 
-.Project_container_card p{
-    text-align: justify;
-}
+
 
 @media screen and (max-width:768px) {
     .Project_container {

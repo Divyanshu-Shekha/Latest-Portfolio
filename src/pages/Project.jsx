@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/project.css";
 import project from "../datas/index";
+import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
@@ -16,8 +17,9 @@ const Project = () => {
               <div className="Project_image">
                 <img src={val.imgUrl} alt="Project" key={index} />
               </div>
-              <h3 key={index}>{val.projectName} | year</h3>
+              <h3 key={index}>{val.projectName} | 2023</h3>
               <p key={index}>{val.projectDesc}</p>
+              <Link to={val.projectLink} target="blank"><span>Go To Project</span></Link>
             </div>
           );
         })}
