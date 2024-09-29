@@ -16,7 +16,7 @@ const project = [{
 {
     imgUrl : Password_generator,
     projectName : "Random Password Generator",
-    projectDesc : "To create any type of password including number and special charecter",
+    projectDesc : "To create any type of password",
     projectLink : "https://password-random-genereator.netlify.app/"
 },
 
