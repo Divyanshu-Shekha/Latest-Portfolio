@@ -1,8 +1,4 @@
-[build]
- publish = "build/"
- function = './functions/'
-
 [[redirects]]
     from = "/*"
-    to = "./netlify/function/:splat"
+    to = "/index.html"
     status = 200
