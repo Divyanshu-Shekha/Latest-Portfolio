@@ -1,6 +1,7 @@
 import Tarzone from '../Assets/Tarxone.PNG';
 import PortFolio from '../Assets/portfolio.PNG'
 import Password_generator from '../Assets/Password_generator.PNG'
+import TODO from "../Assets/TODO.png"
 const project = [{
     imgUrl : Tarzone,
     projectName : "Tarzone",
@@ -19,7 +20,12 @@ const project = [{
     projectDesc : "To create any type of password",
     projectLink : "https://password-random-genereator.netlify.app/"
 },
-
+{
+    imgUrl : TODO,
+    projectName : "TODO",
+    projectDesc : "To manage your TODO'S",
+    projectLink : "https://todotaskcollector.netlify.app/"
+},
 
 ]
 
