@@ -1,8 +1,19 @@
 import Tarzone from '../Assets/Tarxone.PNG';
+import BookStore from '../Assets/BookSTore.png';
 import PortFolio from '../Assets/portfolio.PNG'
 import Password_generator from '../Assets/Password_generator.PNG'
 import TODO from "../Assets/TODO.png"
-const project = [{
+const project = [
+    
+    
+    {
+        imgUrl : BookStore,
+        projectName : "All in One BookStore",
+        projectDesc : "A Book Store for All type of Readers ...",
+        projectLink : "https://allinonebookstore.netlify.app/"
+    },
+    
+    {
     imgUrl : Tarzone,
     projectName : "Tarzone",
     projectDesc : "An ecommerce site...",
